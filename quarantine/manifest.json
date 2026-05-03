@@ -1,0 +1,16 @@
+[
+  {
+    "quarantine_id": "QRN-VD3IPDBH",
+    "original_path": "C:\\Users\\amamr\\Desktop\\step1_improved\\malware_tools\\test_data_temp\\to_quarantine.exe",
+    "original_name": "to_quarantine.exe",
+    "quarantine_name": "QRN-VD3IPDBH.qrn",
+    "sha256": "20351bc490bbd4a589411a006de3ecbfdcfd294d3aff624720d71ce5996e2982",
+    "verdict": "HIGH",
+    "score": 75,
+    "categories": [
+      "Test"
+    ],
+    "quarantined_at": "2026-05-03T22:29:09.135903",
+    "notes": ""
+  }
+]
