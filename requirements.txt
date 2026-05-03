@@ -1,0 +1,3 @@
+yara-python==4.5.4
+requests==2.33.1
+
