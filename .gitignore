@@ -1,3 +1,5 @@
+.env
+.env.local
 Cyber_Project
 # Byte-compiled / optimized / DLL files
 __pycache__/
