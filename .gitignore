@@ -222,3 +222,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+malware_tools/ember_model_2018.txt
+scan_history.db
+vt_cache.json
