@@ -21,3 +21,4 @@ tqdm==4.67.3
 tzdata==2026.2
 urllib3==2.7.0
 yara-python==4.5.4
+flet==0.22.0

@@ -1,6 +1,8 @@
 .env
 .env.local
 Cyber_Project
+malware_tools/dist/
+malware_tools/ember_model_2018.txt
 .venv
 # Byte-compiled / optimized / DLL files
 __pycache__/
