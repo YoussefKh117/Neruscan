@@ -1,4 +1,29 @@
-setuptools==70.0.0
+# setuptools==70.0.0
+# wheel==0.45.0
+# python-dotenv==1.0.1
+# certifi
+# charset-normalizer
+# colorama==0.4.6
+# idna
+# joblib
+# lief>=0.17.6
+# lightgbm
+# numpy==1.23.5
+# pandas
+# python-dateutil
+# requests
+# scikit-learn
+# scipy
+# six
+# threadpoolctl
+# tqdm
+# tzdata
+# urllib3
+# yara-python==4.5.4
+# flet==0.22.0
+# groq
+
+setuptools>=70.0.0
 wheel==0.45.0
 python-dotenv==1.0.1
 certifi
@@ -6,19 +31,19 @@ charset-normalizer
 colorama==0.4.6
 idna
 joblib
-lief==0.11.5
-lightgbm
-numpy==1.23.5
-pandas
+lief>=0.17.6
+lightgbm>=4.5.0
+numpy>=2.1.0
+pandas>=2.2.0
 python-dateutil
 requests
-scikit-learn
-scipy
+scikit-learn>=1.5.0
+scipy>=1.14.0
 six
 threadpoolctl
 tqdm
 tzdata
 urllib3
-yara-python==4.5.4
-flet==0.22.0
+yara-python>=4.5.4
+flet>=0.23.0
 groq

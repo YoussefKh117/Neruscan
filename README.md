@@ -1,10 +1,10 @@
-# NeruScan - Architecture & Project Documentation
+# Neurscan - Architecture & Project Documentation
 
 ## 1. Project Description
-NeruScan is an advanced, multi-engine malware orchestration platform built in Python. It is designed to analyze potentially suspicious files and determine if they are malicious or benign. It does this by combining static heuristics, machine learning, cloud threat intelligence, and dynamic behavioral analysis (sandboxing). Finally, it leverages AI-driven analysis to provide a comprehensive threat intelligence report.
+Neurscan is an advanced, multi-engine malware orchestration platform built in Python. It is designed to analyze potentially suspicious files and determine if they are malicious or benign. It does this by combining static heuristics, machine learning, cloud threat intelligence, and dynamic behavioral analysis (sandboxing). Finally, it leverages AI-driven analysis to provide a comprehensive threat intelligence report.
 
 ## 2. Core Architecture
-The project follows a modular architecture orchestrated by a central component. The main logic resides within the `Neruscan/malware_tools` directory.
+The project follows a modular architecture orchestrated by a central component. The main logic resides within the `Neurscan/malware_tools` directory.
 
 ### 2.1 The Orchestrator (`orchestrator.py`)
 This is the core engine of the application. It receives a file, initializes the requested scanning modules, executes them in sequence, and aggregates the results into a `FinalVerdict`. 

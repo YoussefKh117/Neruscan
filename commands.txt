@@ -8,3 +8,7 @@ python orchestrator.py <file_path> --sandbox
 
 # to run the prj with gui in terminal
 python gui.py
+
+
+# when error in env
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
