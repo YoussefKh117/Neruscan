@@ -5,41 +5,6 @@ Neurscan is an advanced, multi-engine malware orchestration platform built in Py
 
 ---
 
-# Tool Screenshot
-
-<img width="1570" height="850" alt="Image" src="https://github.com/user-attachments/assets/82fe19dd-4e77-4aaa-abc8-6e8163c435fa" />
-
----
-
-# Tool Scan Demonstration
-
-## After Scan
-<img width="1919" height="1016" alt="Image" src="https://github.com/user-attachments/assets/d1215f8c-8d53-4529-aae3-4af59f550d9e" />
-
-<img width="1314" height="843" alt="Image" src="https://github.com/user-attachments/assets/fb7d8f10-5928-4942-86c5-f01da0545672" />
-
----
-
-# HTML Report Preview
-
-## HTML Report - Executive Summary
-<img width="1328" height="729" alt="Image" src="https://github.com/user-attachments/assets/762c20f0-686e-4a00-b9bc-81051fc4f829" />
-
-## HTML Report - Threat Intelligence
-<img width="971" height="884" alt="Image" src="https://github.com/user-attachments/assets/e14e8c62-8478-4af0-bf38-09e686fef895" />
-
----
-
-# PDF Report Preview
-
-## PDF Report - Page 1
-<img width="758" height="841" alt="Image" src="https://github.com/user-attachments/assets/3d7c8113-614c-4a82-b5af-fd42f4f0ee2d" />
-
-## PDF Report - Page 2
-<img width="732" height="844" alt="Image" src="https://github.com/user-attachments/assets/3850b4ac-b48c-4478-b784-699c0ad4d7c8" />
-
----
-
 ## 2. Core Architecture
 The project follows a modular architecture orchestrated by a central component. The main logic resides within the `Neurscan/malware_tools` directory.
 
@@ -123,3 +88,63 @@ If sandbox data is present, the LLM analyzer parses the output to present plain-
 
 ### 5. Action & Output
 The GUI updates in real-time with visual cards (Score/Verdict) for each engine. The application logs the scan to the local database, and if the final score indicates HIGH/CRITICAL risk and auto-quarantine is enabled, the file is moved to the quarantine folder.
+
+---
+
+## 4. How to Use
+
+### 4.1 Prerequisites
+- **Python 3.10+**: Ensure Python is installed on your system.
+- **API Keys**: You will need API keys for the following services:
+  - [VirusTotal](https://www.virustotal.com/) (Public or Premium)
+  - [Hybrid Analysis](https://www.hybrid-analysis.com/) (Falcon Sandbox)
+  - [Groq](https://groq.com/) or [Gemini](https://aistudio.google.com/) (for AI analysis)
+
+### 4.2 Configuration
+1. Navigate to the `Neruscan/malware_tools/` directory.
+2. Create a file named `.env` based on `.env.example`.
+3. Add your API keys to the `.env` file:
+   ```env
+   VT_API_KEY=your_virustotal_key
+   HYBRID_ANALYSIS_API_KEY=your_falcon_sandbox_key
+   GEMINI_API_KEY=your_gemini_key
+   ```
+
+### 4.3 Installation
+Install the required Python dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### 4.4 Running the Application
+Launch the GUI by running:
+```bash
+python malware_tools/gui.py
+```
+
+### 4.5 Performing a Scan
+1. Click the **"Select Sample"** button to choose a file for analysis.
+2. (Optional) Check **"Enable Falcon Sandbox Detonation"** for deep behavioral analysis.
+3. Click **"Start Scan"**.
+4. Once completed, you can view the results in the dashboard or click **"Generate HTML Report"** / **"Save Report PDF"** for a full forensic report.
+
+---
+
+## 5. Tool Overview (Screenshots)
+
+### Application Dashboard
+<img width="800" alt="Main GUI Dashboard" src="https://github.com/user-attachments/assets/82fe19dd-4e77-4aaa-abc8-6e8163c435fa" />
+
+### Post-Scan Analysis
+<img width="800" alt="Scan Results" src="https://github.com/user-attachments/assets/d1215f8c-8d53-4529-aae3-4af59f550d9e" />
+
+### AI Threat Intelligence View
+<img width="600" alt="AI Insights" src="https://github.com/user-attachments/assets/fb7d8f10-5928-4942-86c5-f01da0545672" />
+
+### HTML Forensic Report
+<img width="600" alt="HTML Report" src="https://github.com/user-attachments/assets/762c20f0-686e-4a00-b9bc-81051fc4f829" />
+<img width="600" alt="Threat Intelligence Section" src="https://github.com/user-attachments/assets/e14e8c62-8478-4af0-bf38-09e686fef895" />
+
+### PDF Report Preview
+<img width="400" alt="PDF Report Page 1" src="https://github.com/user-attachments/assets/3d7c8113-614c-4a82-b5af-fd42f4f0ee2d" />
+<img width="400" alt="PDF Report Page 2" src="https://github.com/user-attachments/assets/3850b4ac-b48c-4478-b784-699c0ad4d7c8" />
