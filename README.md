@@ -16,6 +16,8 @@ Neurscan is an advanced, multi-engine malware orchestration platform built in Py
 ## After Scan
 <img width="1919" height="1016" alt="Image" src="https://github.com/user-attachments/assets/d1215f8c-8d53-4529-aae3-4af59f550d9e" />
 
+<img width="1314" height="843" alt="Image" src="https://github.com/user-attachments/assets/fb7d8f10-5928-4942-86c5-f01da0545672" />
+
 ---
 
 # HTML Report Preview
