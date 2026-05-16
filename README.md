@@ -7,34 +7,34 @@ Neurscan is an advanced, multi-engine malware orchestration platform built in Py
 
 # Tool Screenshot
 
-!<img width="1570" height="850" alt="Image" src="https://github.com/user-attachments/assets/82fe19dd-4e77-4aaa-abc8-6e8163c435fa" />
+<img width="1570" height="850" alt="Image" src="https://github.com/user-attachments/assets/82fe19dd-4e77-4aaa-abc8-6e8163c435fa" />
 
 ---
 
 # Tool Scan Demonstration
 
 ## After Scan
-!<img width="1919" height="1016" alt="Image" src="https://github.com/user-attachments/assets/d1215f8c-8d53-4529-aae3-4af59f550d9e" />
+<img width="1919" height="1016" alt="Image" src="https://github.com/user-attachments/assets/d1215f8c-8d53-4529-aae3-4af59f550d9e" />
 
 ---
 
 # HTML Report Preview
 
 ## HTML Report - Executive Summary
-!<img width="1328" height="729" alt="Image" src="https://github.com/user-attachments/assets/762c20f0-686e-4a00-b9bc-81051fc4f829" />
+<img width="1328" height="729" alt="Image" src="https://github.com/user-attachments/assets/762c20f0-686e-4a00-b9bc-81051fc4f829" />
 
 ## HTML Report - Threat Intelligence
-!<img width="971" height="884" alt="Image" src="https://github.com/user-attachments/assets/e14e8c62-8478-4af0-bf38-09e686fef895" />
+<img width="971" height="884" alt="Image" src="https://github.com/user-attachments/assets/e14e8c62-8478-4af0-bf38-09e686fef895" />
 
 ---
 
 # PDF Report Preview
 
 ## PDF Report - Page 1
-!<img width="758" height="841" alt="Image" src="https://github.com/user-attachments/assets/3d7c8113-614c-4a82-b5af-fd42f4f0ee2d" />
+<img width="758" height="841" alt="Image" src="https://github.com/user-attachments/assets/3d7c8113-614c-4a82-b5af-fd42f4f0ee2d" />
 
 ## PDF Report - Page 2
-!<img width="732" height="844" alt="Image" src="https://github.com/user-attachments/assets/3850b4ac-b48c-4478-b784-699c0ad4d7c8" />
+<img width="732" height="844" alt="Image" src="https://github.com/user-attachments/assets/3850b4ac-b48c-4478-b784-699c0ad4d7c8" />
 
 ---
 
