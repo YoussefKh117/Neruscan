@@ -130,7 +130,7 @@ python malware_tools/gui.py
 
 ---
 
-## 5. Tool Overview (Screenshots)
+## 5. Tool Overview
 
 ### Application Dashboard
 <img width="800" alt="Main GUI Dashboard" src="https://github.com/user-attachments/assets/82fe19dd-4e77-4aaa-abc8-6e8163c435fa" />
