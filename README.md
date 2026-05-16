@@ -27,7 +27,7 @@ Enhances the raw JSON results from the Sandbox by feeding them into a Large Lang
 ### 2.4 Supporting Components
 - **User Interface (`gui.py`)**: A modern, dark-themed graphical user interface built with the `flet` framework. It allows users to pick files, toggle sandbox detonation and auto-quarantine, and presents the analysis cards and AI insights interactively.
 - **Quarantine Manager (`quarantine.py`)**: If the combined threat score surpasses a safety threshold (default 75.0), this module safely moves and isolates the dangerous file into a quarantine zone to prevent accidental execution.
-- **Scan History (`scan_history.py`)**: Logs the results of scans into a local SQLite database, tracking sessions, file hashes, and verdicts for historical auditing.
+
 
 ## 3. Workflow Explanation
 1. **Input Phase**: The user selects a suspicious file via the `gui.py` interface. They can optionally enable deep Sandbox Detonation and Auto-Quarantine.

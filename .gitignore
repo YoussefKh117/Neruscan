@@ -228,3 +228,4 @@ malware_tools/ember_model_2018.txt
 scan_history.db
 vt_cache.json
 Dark_Hours.exe
+**/__pycache__
